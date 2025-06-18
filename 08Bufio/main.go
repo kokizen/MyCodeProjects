@@ -8,7 +8,7 @@ import (
 )
 
 func greet(name string) string {
-	return "Hello, " + name + "!"
+	return "Hello, " + name + "!👋"
 }
 func main() {
 	reader := bufio.NewReader(os.Stdin)
